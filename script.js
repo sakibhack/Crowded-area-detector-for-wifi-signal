@@ -7,8 +7,8 @@ function fetchLocation() {
 }
 
 function showPosition(position) {
-    const latitude = position.coords.latitude;
-    const longitude = position.coords.longitude;
+    const channel = position.coords.latitude;
+    const availability = position.coords.longitude;
     document.getElementById("location").innerHTML = `Latitude: ${latitude} <br> Longitude: ${longitude}`;
 }
 
