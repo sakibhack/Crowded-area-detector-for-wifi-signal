@@ -7,9 +7,9 @@ function fetchLocation() {
 }
 
 function showPosition(position) {
-    const latitude = position.coords.latitude;
-    const longitude = position.coords.longitude;
-    document.getElementById("location").innerHTML = `Latitude: ${Channel} <br> Longitude: ${Availability}`;
+    const channel = position.coords.latitude;
+    const availability = position.coords.longitude;
+    document.getElementById("location").innerHTML = `Channel: ${channel} <br> Availability: ${availability}`;
 }
 
 function showError(error) {
